@@ -1,0 +1,23 @@
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.board {
+    display: flex;
+    flex-direction: column;
+    width: 45.17vw;
+    height: 100vh;
+    border: 3px solid black;
+}
+
+
+.board > .box {
+    flex-wrap: wrap;
+    border: 3px solid black;
+}
